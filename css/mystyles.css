@@ -7,8 +7,12 @@ body {
     -o-background-size: cover;
 }
 
-h1 {
-    text-transform: uppercase;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -28,6 +32,48 @@ hr {
 .brand,
 .address-bar {
     display: none;
+}
+.page-header{
+        display: inherit;
+        margin: 0;
+        padding: 20px 0 30px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+.subheader{
+	display: inherit;
+	margin: 5px;
+	text-align: center;
+	text-shadow: 1px 1px 2px rgba(0,0,0.5);
+	
+}
+
+.row{
+	align-content: center;
+	background: rgba(255,255,255,0.9);
+	justify-content: center;
+
+	
+}
+.col-md-4{
+	padding-left: 50px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	padding-right: 50px;
+	
+}
+.col-md-8{
+	padding-left: 50px;
+	padding-bottom: 50px;
+	padding-top: 0px;
+	padding-right: 50px;
+
 }
 
 .navbar-brand {
@@ -67,12 +113,18 @@ hr {
 }
 
 .box {
+	display: block;
     margin-bottom: 20px;
-    padding: 30px 15px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    margin-right: 5%;
+	margin-left: 5%;
+	width: 90%;
+	background: rgba(255,255,255,0.9);
+	justify-content: center;
 }
 
+#cid {
+	width: 90%;
+}
 .intro-text {
     text-transform: uppercase;
     font-size: 1.25em;
@@ -87,19 +139,10 @@ hr {
 }
 
 .img-left {
-    float: none;
+    float: center;
     margin: 0 auto 0;
 }
 
-footer {
-    background: #fff;
-    background: rgba(255,255,255,0.9);
-}
-
-footer p {
-    margin: 0;
-    padding: 15px 0;
-}
 
 @media screen and (min-width:768px) {
     .brand {
@@ -120,8 +163,8 @@ footer p {
     }
 
     .img-left {
-        float: left;
-        margin-right: 25px;
+        float: right;
+        margin-left: auto;
     }
 
     .address-bar {
@@ -134,7 +177,7 @@ footer p {
         font-size: 1.25em;
         font-weight: 400;
         letter-spacing: 3px;
-        color: #fff;
+       
     }
 
     .navbar {
@@ -178,4 +221,24 @@ footer p {
         display: table;
         clear: both;
     }
+}
+.portimages {
+	max-width: 450px;
+	max-height: 450px;
+	clip: rect(0px,450px,450px,0px);
+}
+.portholder {
+	height: 400px;
+	max-height: 400px;
+	overlfow: hidden;
+	display: block;
+}
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+footer p {
+    margin: 0;
+    padding: 15px 0;
 }

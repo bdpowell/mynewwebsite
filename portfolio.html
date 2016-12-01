@@ -5,6 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio Page</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Bootstrap -->
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/mystyles.css" rel="stylesheet" type="text/css">
@@ -65,92 +67,206 @@
         <!-- /.container -->
     </nav>
 
+  <!-- Page Content -->
     <div class="container">
 
-        <div class="row"> </div>
-    </div>
-    <!-- /.container -->
-  <div class="row">
-    <div class="box">
-      <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">
-                      <strong>Technical</strong> Writing
-                    </h2>
-                    <hr>
-        </div>
-                <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <h3>John Smith
-                        <small>Job Title</small>
-                    </h3>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <h3>John Smith
-                        <small>Job Title</small>
-                    </h3>
-                </div>
-                <div class="col-sm-4 text-center">
-                  <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <h3>John Smith
-                        <small>Job Title</small>
-                    </h3>
-                </div>
-      <div class="clearfix"></div>
-            </div>
-    <div class="box">
-         <div class="col-lg-12">
-           <hr>
-           <h2 class="intro-text text-center"> <strong>Academic</strong> Writng </h2>
-           <hr>
-         </div>
-         <div class="col-sm-4 text-center"> <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-           <h3>John Smith <small>Job Title</small> </h3>
-         </div>
-         <div class="col-sm-4 text-center"> <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-           <h3>John Smith <small>Job Title</small> </h3>
-         </div>
-         <div class="col-sm-4 text-center"> <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-           <h3>John Smith <small>Job Title</small> </h3>
-         </div>
-         <div class="clearfix"></div>
-       </div>
-       
-  <div class="box">
-         <div class="col-lg-12">
-           <hr>
-           <h2 class="intro-text text-center"> <strong>Graphic</strong> Design </h2>
-           <hr>
-         </div>
-         <div class="col-sm-4 text-center"> <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-           <h3>John Smith <small>Job Title</small></h3>
-         </div>
-         <div class="col-sm-4 text-center"> <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-           <h3>John Smith <small>Job Title</small></h3>
-         </div>
-         <div class="col-sm-4 text-center"> <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-           <h3>John Smith <small>Job Title</small></h3>
-         </div>
-         <div class="clearfix"></div>
-       </div>
-     </div>
-    <footer class="navbar-fixed-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; Brooke Powell 2016</p>
-                </div>
+        <!-- Section Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    <small>Technical Writing</small>
+                </h1>
             </div>
         </div>
-    </footer>
-    
-  </body>
-</html>
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-	<script src="js/jquery-1.11.3.min.js"></script>
+        <!-- /.row -->
+		<hr> 
+        <!-- Project One -->
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#">
+                    <img class="img-responsive" src="images/Brookeporttfoliocontent/ArchivalResearchPaper_Page_01.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-8">
+                <h3>Archival Research Paper</h3>
+                <h4>Course: International Technical Communication</h4>
+                <p>For this project, the Michigan Tech archives were utlilized to reseach various forms of communication and reflect on the ideologies represented within an historic artifact of our choosing.</p>
+                <a class="btn btn-primary" href="ArchivalResearchPaper.pdf">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
 
-	<!-- Include all compiled plugins (below), or include individual files as needed --> 
-	<script src="js/bootstrap.js"></script>
-  </body>
-</html>
+        <!-- Project Two -->
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#">
+                    <img class="img-responsive" src="images/Brookeporttfoliocontent/Eng_finalreport_Page_01.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-8">
+                <h3>Engineering Report</h3>
+                <h4>Course: Engineering Analysis & Problem Solving</h4>
+                <p>Collaborating with a team, we utilized various software such as, MATLab and Microsoft Excel, to design a rubber band powered car to carry candy a predetermined distance.</p>
+                <a class="btn btn-primary" href="Eng_finalreport.pdf">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Project Three -->
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#">
+                    <img class="img-responsive" src="images/Brookeporttfoliocontent/FinalProject_usability_Page_01.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-8">
+                <h3>Evaluating Assesment at Michigan Tech</h3>
+                <h4>Course: Usability & Instructions Writing</h4>
+                <p>Collaborating with a team, we performed a usability test to assess the extent of knowledge various departments had around campus. This was done in an attempt to understand the pit falls of the current system and make recommendations for improvement.</p>
+                <a class="btn btn-primary" href="FinalProject_usability.pdf">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
+<!--Section header-->
+        <hr>
+<div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    <small>Academic Writing</small>
+                </h1>
+            </div>
+        </div>
+        <hr>
+        <!-- Project Four -->
+        <div class="row">
+
+            <div class="col-md-4">
+                <a href="#">
+                    <img class="img-responsive" src="images/Brookeporttfoliocontent/Digitalmedia_reflection_Page_1.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-8">
+                <h3>Reading Reflection</h3>
+                <h4>Course: Introduction to Digital Media</h4>
+                <p>This paper is a short reflection on a New York Times article "How Social Media Silences debate" by Claire Miller and a chapter from Janson Lanier's book, "You’re not a gadget". Although most communication course require some reading reflection, this paper is memorable to me because it helped me realize how much I enjoy communications studies and talking about it with my peers.  </p>
+                <a class="btn btn-primary" href="Digitalmedia_reflection.pdf">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+
+        <!-- Project Five -->
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#">
+                    <img class="img-responsive" src="images/Brookeporttfoliocontent/cultureofmonuments_essay_Page_1.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-8">
+                <h3>Comparing Restoration & Conservation</h3>
+                <h4>Hispanic Literatures & Culture</h4>
+                <p>This short paper was my favorite assignment during my summer aboard in Peru. After visiting Machu Picchu, we were asked to compare it with another landmark we had been to and discuss the inherent differences between the terminology that is used when referencing historical sites. I enjoyed this paper because it allowed me to reflect on the impermanence of life and the need for historical preservation.</p>
+                <a class="btn btn-primary" href="cultureofmonuments_essay.pdf">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+       
+        
+		
+        <!--Project 6-->
+		
+           <div class="row">
+            <div class="col-md-4">
+                <a href="#">
+                    <img class="img-responsive" src="images/2.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-8">
+                <h3>News Writing</h3>
+                <h4>Course: Introduction to Journalism, University Marketing & Communications</h4>
+				<p>Below are links to two news articles which written in AP style and published locally.</p> <p>The first, "Community sustainable-food projects," was written in my intro to Journalism course. I enjoyed writing this article because I was able to interview members of the Houghton Community and dinning services on Michigan Tech's campus. Through these interviews, I was able to understand different perspectives of growing your own food in Houghton, MI. Published in Michigan Tech's student news paper, The Lode.  
+             </p>
+				<p>The second, "High School Students Host Computer Programming Workshop for Middle School Girls," was published on the Michigan Tech online news site. It gives a brief description of an on-campus event that stressed the importance of female involvement in the computer science field.</p>
+                <a class="btn btn-primary" href="food security article.pdf">View Article 1 <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="btn btn-primary" href="High School Students Host Computer Programming Workshop for Middle School Girls.pdf">View Article 2 <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+    
+            </div>
+		
+	  <hr> 
+       
+        <!--Section header-->
+	
+           <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    <small>Graphic Design</small>
+                </h1>
+            </div>
+        </div>
+	<hr>
+               <!-- Project -->
+        <div class="row">
+
+            <div class="col-md-4">
+                <a href="#">
+                    <img class="img-responsive" src="images/Brookeporttfoliocontent/assessmentinfographicfinal.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-8">
+                <h3>Assesment Infographic</h3>
+                <h4>Usability & Instruction Writing</h4>
+                <p>This infographic was the deliverable that resulted from the Usability Report found in the Technical Writing section of this page. It was designed with the intention of helping faculty more easily understand the areas that Michigan Tech is currently assessing.</p>
+                <a class="btn btn-primary" href="assessmentinfographicfinal.pdf">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        
+
+        <!-- Project -->
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#">
+                    <img class="img-responsive" src="images/Brookeporttfoliocontent/keweenawcommunityfoundationbrochure.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-8">
+                <h3>Keweenaw Community Foundation Brochure</h3>
+                <h4>Marketing & Design Internship with The Keweenaw Community Foundation</h4>
+                <p>This project was my first assignment at my internship for the KCF. Their old brochure was a quad-fold word document, so they asked me to take that content and make it more visually appealing.</p>
+                <a class="btn btn-primary" href="keweenawcommunityfoundationbrochure.pdf">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        
+        
+        
+        <!-- /.row -->
+	
+        <!--Project -->
+	
+           <div class="row">
+            <div class="col-md-4">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/700x300" alt="">
+                </a>
+            </div>
+            <div class="col-md-8">
+                <h3>Project </h3>
+                <h4>Subheading</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, quo, minima, inventore voluptatum saepe quos nostrum provident ex quisquam hic odio repellendus atque porro distinctio quae id laboriosam facilis dolorum.</p>
+                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+    
+            </div>
+		
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>BP 2016</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
