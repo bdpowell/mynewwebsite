@@ -114,7 +114,8 @@ hr {
 
 .box {
 	display: block;
-    margin-bottom: 20px;
+	margin-top: 3%;
+    margin-bottom: 2%;
     margin-right: 5%;
 	margin-left: 5%;
 	width: 90%;
@@ -150,7 +151,7 @@ hr {
         margin: 0;
         padding: 30px 0 10px;
         text-align: center;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-shadow: 3px 1px 2px rgba(0,0,0,0.5);
         font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 5em;
         font-weight: 700;
@@ -172,11 +173,12 @@ hr {
         margin: 0;
         padding: 0 0 40px;
         text-align: center;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-shadow: 3px 2px 3px rgba(0,0,0,0.5);
         text-transform: uppercase;
         font-size: 1.25em;
         font-weight: 400;
         letter-spacing: 3px;
+		color: #fff;
        
     }
 
